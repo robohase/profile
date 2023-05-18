@@ -1,13 +1,13 @@
 :root {
-  --lite-blue: #5AA5B8;
-  --blue: #4F73A8;
-  --pink: #D18282;
+  --lite-green: #1c2130;
+  --blue: #028f76;
+  --pink: #bb5246;
   --yellow: #FFEBC2;
   --navy: #605282;
 }
 
 body {
-  background-color: var(--lite-blue);
+  background-color: var(--lite-green);
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont,
     "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
@@ -193,6 +193,11 @@ th {
 
 .card-subtitle {
   font-size: 1.2em;
+  font-weight: 700;
+}
+
+.card-period {
+  font-size: 1.0em;
   font-weight: 700;
 }
 
